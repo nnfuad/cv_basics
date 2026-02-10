@@ -7,14 +7,14 @@ print(img.shape)
 img[:] = 255,0,0  # BGR
 
 # Create a line
-# cv2.line(img, (0,0), (300,400), (0,255,0), 5)
+# cv2.line(img, (0,0), (300,400), (0,255,0), 5) # cv2.line(image, start_point, end_point, color, thickness)
 
 ### Rectangle
-# cv2.rectangle(img, (100,50), (250, 350), (0,0,255), 7)
+# cv2.rectangle(img, (100,50), (250, 350), (0,0,255), 7) #cv2.rectangle(image, start_point, end_point, color, thickness)
 
 
 ### Create circle 
-# cv2.circle(img, (400,50), 50, (0,0,255), 4)
+# cv2.circle(img, (400,50), 50, (0,0,255), 4) # cv2.circle(img, (400,50), 50, (0,0,255), cv2.FILLED)
 
 
 ### Put texts
